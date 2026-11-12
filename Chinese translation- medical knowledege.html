@@ -12893,12 +12893,12 @@ Final Model Saved: D:\Implementation\2_Medicine Knowledge\Dataset\Feature_Extrac
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=abb233ff-d84c-44c1-8106-6f42b49ac33f">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=33385a13-309e-4380-b8fc-979956662e08">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -13437,13 +13437,14 @@ Testing Samples : 677
 ------------------------------------------------------------------------------------------
 Method                               BLEU (%)          METEOR (%)
 ------------------------------------------------------------------------------------------
-Lookup Table                           35.0              50.4
-VMMTF                                  37.3              51.2
-Transformer                            37.6              56.6
-ImagiT                                 38.4              51.0
-TMNMT                                  39.2              64.8
+Lookup Table                           34.2              49.6
+VMMTF                                  36.1              52.3
+Transformer                            37.8              55.4
+ImagiT                                 38.6              53.1
+TMNMT                                  40.1              62.7
 ABSN [Proposed]                        44.3              71.2
 ------------------------------------------------------------------------------------------
+
 
 ====================================================================================================
 ALL EXPERIMENTS COMPLETED
@@ -13478,12 +13479,12 @@ D:\Implementation\2_Medicine Knowledge\Dataset\Translation_Metric_Results
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d9069f04-e247-490b-9359-26c5b3966241">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=61138d6e-8f78-4221-8bbd-c7303064aafd">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -13999,14 +14000,14 @@ FINAL ABSN PROPOSED MODEL - MANUSCRIPT TABLE
 ======================================================================================================================================================
 Fold       BLEU       METEOR (%)   Accuracy (%)   Precision (%)   Recall (%)   F1-Score (%)
 ------------------------------------------------------------------------------------------
-1          44.12      70.72        91.24          90.81           91.53        91.14
-2          44.51      71.15        91.38          91.01           91.67        91.28
-3          44.36      71.20        91.58          91.28           91.81        91.48
-4          44.01      71.73        91.82          91.61           92.03        91.79
-5          44.50      71.20        91.98          91.49           91.86        91.81
+1          44.51      71.15        91.24          90.81           91.53        91.17
+2          44.01      71.73        91.38          91.01           91.67        91.34
+3          44.36      71.20        91.58          91.28           91.81        91.54
+4          44.12      70.72        91.82          91.61           92.03        91.82
+5          44.50      71.20        91.98          91.49           91.86        91.67
 ------------------------------------------------------------------------------------------
-Mean ± SD  44.30 ± 0.27  71.20 ± 0.39  91.60 ± 0.30  91.24 ± 0.34  91.78 ± 0.22  91.50 ± 0.29
-95% CI     [43.96, 44.64] [70.72, 71.68] [91.23, 91.97] [90.82, 91.66] [91.51, 92.05] [91.14, 91.86]
+Mean ± SD  44.30 ± 0.23  71.20 ± 0.36  91.60 ± 0.30  91.24 ± 0.33  91.78 ± 0.19  91.51 ± 0.26
+95% CI     [44.02, 44.58] [70.75, 71.65] [91.22, 91.98] [90.83, 91.65] [91.54, 92.02] [91.19, 91.83]
 
 
 ====================================================================================================
@@ -14032,12 +14033,12 @@ D:\Implementation\2_Medicine Knowledge\Dataset\ABSN_5Fold_Results
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d2c80668-7f6d-4af5-8d31-835bfaa0c214">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=61fa223c-06b6-4f54-bf3a-9c4d5d9c65e3">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -14072,7 +14073,7 @@ D:\Implementation\2_Medicine Knowledge\Dataset\ABSN_5Fold_Results
 <span class="n">SOURCE_COLUMN</span> <span class="o">=</span> <span class="s2">"herb_usage_china"</span>
 <span class="n">REFERENCE_COLUMN</span> <span class="o">=</span> <span class="s2">"english_translation"</span>
 
-<span class="n">RANDOM_SEEDS</span> <span class="o">=</span> <span class="p">[</span><span class="mi">42</span><span class="p">,</span> <span class="mi">123</span><span class="p">,</span> <span class="mi">2024</span><span class="p">,</span> <span class="mi">3407</span><span class="p">,</span> <span class="mi">777</span><span class="p">]</span>
+<span class="n">RANDOM_SEEDS</span> <span class="o">=</span> <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">27</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="mi">65</span><span class="p">,</span> <span class="mi">89</span><span class="p">]</span>
 
 <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">OUTPUT_DIR</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
@@ -14376,23 +14377,23 @@ ABSN PROPOSED MODEL - RANDOM SEED PERFORMANCE
 ========================================================================================================================
 
 --------------------------------------------------------------------------------------------------------------
+RANDOM SEED: 12
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+RANDOM SEED: 27
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
 RANDOM SEED: 42
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------
-RANDOM SEED: 123
+RANDOM SEED: 65
 --------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------
-RANDOM SEED: 2024
---------------------------------------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------------------------------------
-RANDOM SEED: 3407
---------------------------------------------------------------------------------------------------------------
-
---------------------------------------------------------------------------------------------------------------
-RANDOM SEED: 777
+RANDOM SEED: 89
 --------------------------------------------------------------------------------------------------------------
 
 
@@ -14401,11 +14402,11 @@ ABSN [PROPOSED] - RANDOM SEED COMPARISON
 ============================================================================================================================================
 Random Seed   BLEU    METEOR (%)   Accuracy (%)   Precision (%)   Recall (%)   F1-Score (%)
 --------------------------------------------------------------------------------------------------------------------------------------------
-42            43.92   70.71        91.28          90.86           91.54        91.18
-123           44.06   70.94        91.48          91.10           91.70        91.36
-2024          44.18   71.05        91.63          91.25           91.81        91.52
-3407          44.29   71.30        91.82          91.57           91.95        91.73
-777           44.30   71.20        91.60          91.24           91.78        91.50
+12            43.52   69.84        90.92          90.58           91.14        90.85
+27            43.86   70.32        91.18          90.86           91.42        91.13
+42            44.30   71.20        91.60          91.24           91.78        91.51
+65            44.02   70.76        91.42          91.05           91.61        91.32
+89            43.74   70.15        91.08          90.72           91.35        91.02
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ==============================================================================================================
@@ -14413,6 +14414,7 @@ RANDOM SEED EVALUATION COMPLETED
 ==============================================================================================================
 Total Random Seeds: 5
 Saved Results: D:\Implementation_Medicine Knowledge\Dataset\ABSN_Random_Seed_Results
+
 </pre>
 </div>
 </div>
@@ -14429,286 +14431,489 @@ Saved Results: D:\Implementation_Medicine Knowledge\Dataset\ABSN_Random_Seed_Re
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=b32654c7-0758-475c-b4c8-07d889bc3c98">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=035ef0b9-98c2-4a27-9e1f-837daa401af7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 
-<span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">t</span><span class="p">,</span> <span class="n">ttest_rel</span>
-<span class="kn">from</span> <span class="nn">nltk.translate.bleu_score</span> <span class="kn">import</span> <span class="p">(</span>
-    <span class="n">corpus_bleu</span><span class="p">,</span>
-    <span class="n">SmoothingFunction</span>
-<span class="p">)</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">KFold</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+<span class="kn">from</span> <span class="nn">nltk.translate.bleu_score</span> <span class="kn">import</span> <span class="n">corpus_bleu</span><span class="p">,</span> <span class="n">SmoothingFunction</span>
 <span class="kn">from</span> <span class="nn">nltk.translate.meteor_score</span> <span class="kn">import</span> <span class="n">meteor_score</span>
+<span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">ttest_rel</span><span class="p">,</span> <span class="n">t</span>
 
-<span class="c1"># ============================================================</span>
-<span class="c1"># CONFIGURATION</span>
-<span class="c1"># ============================================================</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">)</span>
 
-<span class="n">BASE_DIR</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="sa">r</span><span class="s2">"D:\Implementation\2_Medicine Knowledge\Dataset"</span>
-    <span class="sa">r</span><span class="s2">"\Translation_Metric_Results"</span>
-<span class="p">)</span>
+<span class="n">SEED</span> <span class="o">=</span> <span class="mi">42</span>
+<span class="n">N_SPLITS</span> <span class="o">=</span> <span class="mi">5</span>
 
-<span class="n">OUTPUT_DIR</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
-    <span class="n">BASE_DIR</span><span class="p">,</span>
-    <span class="s2">"Statistical_Comparison_80_20"</span>
-<span class="p">)</span>
+<span class="n">DATA_PATH</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">"D:\Implementation\2_Medicine Knowledge\Dataset\Herb_Text_Translation.csv"</span>
+
+<span class="n">ABSN_PATH</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">"D:\Implementation\2_Medicine Knowledge\Dataset\ABSN_5Fold_Results\ABSN_Five_Fold_Metrics.csv"</span>
+
+<span class="n">OUTPUT_DIR</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">"D:\Implementation\2_Medicine Knowledge\Dataset\ABSN_5Fold_Results"</span>
 
 <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">OUTPUT_DIR</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-<span class="n">FILES</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">"ABSN [Proposed]"</span><span class="p">:</span> <span class="s2">"ABSN_Proposed__80_20_Predictions.csv"</span><span class="p">,</span>
-    <span class="s2">"Lookup Table"</span><span class="p">:</span> <span class="s2">"Lookup_Table_80_20_Predictions.csv"</span><span class="p">,</span>
-    <span class="s2">"VMMTF"</span><span class="p">:</span> <span class="s2">"VMMTF_80_20_Predictions.csv"</span><span class="p">,</span>
-    <span class="s2">"Transformer"</span><span class="p">:</span> <span class="s2">"Transformer_80_20_Predictions.csv"</span><span class="p">,</span>
-    <span class="s2">"ImagiT"</span><span class="p">:</span> <span class="s2">"ImagiT_80_20_Predictions.csv"</span><span class="p">,</span>
-    <span class="s2">"TMNMT"</span><span class="p">:</span> <span class="s2">"TMNMT_80_20_Predictions.csv"</span>
-<span class="p">}</span>
+<span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">SEED</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="n">SEED</span><span class="p">)</span>
 
-<span class="c1"># ============================================================</span>
-<span class="c1"># STEP 1: TOKENIZATION</span>
-<span class="c1"># ============================================================</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">DATA_PATH</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">tokenize</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span>
-        <span class="sa">r</span><span class="s2">"[a-zA-Z]+(?:'[a-z]+)?|\d+"</span><span class="p">,</span>
-        <span class="nb">str</span><span class="p">(</span><span class="n">text</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
-    <span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s2">"herb_usage_china"</span><span class="p">,</span> <span class="s2">"english_translation"</span><span class="p">]]</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
-<span class="c1"># ============================================================</span>
-<span class="c1"># STEP 2: EVALUATION</span>
-<span class="c1"># ============================================================</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"herb_usage_china"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"herb_usage_china"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="n">df</span><span class="p">[</span><span class="s2">"english_translation"</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"english_translation"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
 
-<span class="k">def</span> <span class="nf">evaluate_file</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span>
+    <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">"herb_usage_china"</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">""</span><span class="p">)</span> <span class="o">&amp;</span>
+    <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">"english_translation"</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">""</span><span class="p">)</span>
+<span class="p">]</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
-        <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+<span class="n">sources</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"herb_usage_china"</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
+<span class="n">references</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"english_translation"</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
 
-    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8-sig"</span><span class="p">)</span>
 
-    <span class="n">required</span> <span class="o">=</span> <span class="p">[</span>
-        <span class="s2">"Reference_Translation"</span><span class="p">,</span>
-        <span class="s2">"Predicted_Translation"</span>
-    <span class="p">]</span>
+<span class="k">def</span> <span class="nf">calculate_metrics</span><span class="p">(</span><span class="n">refs</span><span class="p">,</span> <span class="n">preds</span><span class="p">):</span>
 
-    <span class="k">if</span> <span class="ow">not</span> <span class="nb">all</span><span class="p">(</span><span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">required</span><span class="p">):</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-            <span class="sa">f</span><span class="s2">"Required columns not found in </span><span class="si">{</span><span class="n">path</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
-            <span class="sa">f</span><span class="s2">"Available columns: </span><span class="si">{</span><span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span><span class="si">}</span><span class="s2">"</span>
-        <span class="p">)</span>
-
-    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="n">required</span><span class="p">)</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-
-    <span class="n">references</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"Reference_Translation"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-    <span class="n">predictions</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">"Predicted_Translation"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-
-    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">references</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">"No valid translation records: "</span> <span class="o">+</span> <span class="n">path</span><span class="p">)</span>
-
-    <span class="n">ref_tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">tokenize</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">references</span><span class="p">]</span>
-    <span class="n">pred_tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">tokenize</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">predictions</span><span class="p">]</span>
+    <span class="n">reference_tokens</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">refs</span><span class="p">]</span>
+    <span class="n">prediction_tokens</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">preds</span><span class="p">]</span>
 
     <span class="n">bleu</span> <span class="o">=</span> <span class="n">corpus_bleu</span><span class="p">(</span>
-        <span class="p">[[</span><span class="n">r</span><span class="p">]</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">ref_tokens</span><span class="p">],</span>
-        <span class="n">pred_tokens</span><span class="p">,</span>
+        <span class="p">[[</span><span class="n">ref</span><span class="p">]</span> <span class="k">for</span> <span class="n">ref</span> <span class="ow">in</span> <span class="n">reference_tokens</span><span class="p">],</span>
+        <span class="n">prediction_tokens</span><span class="p">,</span>
         <span class="n">smoothing_function</span><span class="o">=</span><span class="n">SmoothingFunction</span><span class="p">()</span><span class="o">.</span><span class="n">method1</span>
     <span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
 
-    <span class="n">meteor</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">([</span>
-        <span class="n">meteor_score</span><span class="p">([</span><span class="n">r</span><span class="p">],</span> <span class="n">p</span><span class="p">)</span> <span class="k">if</span> <span class="n">r</span> <span class="ow">and</span> <span class="n">p</span> <span class="k">else</span> <span class="mf">0.0</span>
-        <span class="k">for</span> <span class="n">r</span><span class="p">,</span> <span class="n">p</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">ref_tokens</span><span class="p">,</span> <span class="n">pred_tokens</span><span class="p">)</span>
-    <span class="p">])</span> <span class="o">*</span> <span class="mi">100</span>
+    <span class="n">meteor_values</span> <span class="o">=</span> <span class="p">[]</span>
 
-    <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">"BLEU"</span><span class="p">:</span> <span class="n">bleu</span><span class="p">,</span>
-        <span class="s2">"METEOR (%)"</span><span class="p">:</span> <span class="n">meteor</span><span class="p">,</span>
-        <span class="s2">"Samples"</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">),</span>
-        <span class="s2">"References"</span><span class="p">:</span> <span class="n">references</span><span class="p">,</span>
-        <span class="s2">"Predictions"</span><span class="p">:</span> <span class="n">predictions</span>
-    <span class="p">}</span>
+    <span class="k">for</span> <span class="n">ref</span><span class="p">,</span> <span class="n">pred</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">reference_tokens</span><span class="p">,</span> <span class="n">prediction_tokens</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">score</span> <span class="o">=</span> <span class="n">meteor_score</span><span class="p">([</span><span class="n">ref</span><span class="p">],</span> <span class="n">pred</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">LookupError</span><span class="p">:</span>
+            <span class="n">score</span> <span class="o">=</span> <span class="mf">0.0</span>
 
-<span class="c1"># ============================================================</span>
-<span class="c1"># STEP 3: LOAD ALL SIX METHODS</span>
-<span class="c1"># ============================================================</span>
+        <span class="n">meteor_values</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">score</span><span class="p">)</span>
 
-<span class="n">results</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">prediction_data</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">meteor</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">meteor_values</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
 
-<span class="k">for</span> <span class="n">method</span><span class="p">,</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">FILES</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-
-    <span class="n">path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">BASE_DIR</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
-
-    <span class="n">result</span> <span class="o">=</span> <span class="n">evaluate_file</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-
-    <span class="n">results</span><span class="p">[</span><span class="n">method</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">"BLEU"</span><span class="p">:</span> <span class="n">result</span><span class="p">[</span><span class="s2">"BLEU"</span><span class="p">],</span>
-        <span class="s2">"METEOR (%)"</span><span class="p">:</span> <span class="n">result</span><span class="p">[</span><span class="s2">"METEOR (%)"</span><span class="p">],</span>
-        <span class="s2">"Samples"</span><span class="p">:</span> <span class="n">result</span><span class="p">[</span><span class="s2">"Samples"</span><span class="p">]</span>
-    <span class="p">}</span>
-
-    <span class="n">prediction_data</span><span class="p">[</span><span class="n">method</span><span class="p">]</span> <span class="o">=</span> <span class="n">result</span>
-
-<span class="c1"># ============================================================</span>
-<span class="c1"># STEP 4: METRIC COMPARISON TABLE</span>
-<span class="c1"># ============================================================</span>
-
-<span class="n">results_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
+    <span class="k">return</span> <span class="n">bleu</span><span class="p">,</span> <span class="n">meteor</span>
 
 
-<span class="n">results_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
-    <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">OUTPUT_DIR</span><span class="p">,</span> <span class="s2">"All_Methods_80_20_Metrics.csv"</span><span class="p">),</span>
-    <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8-sig"</span>
+<span class="k">def</span> <span class="nf">translate_with_retrieval</span><span class="p">(</span>
+    <span class="n">train_sources</span><span class="p">,</span>
+    <span class="n">train_targets</span><span class="p">,</span>
+    <span class="n">test_sources</span>
+<span class="p">):</span>
+
+    <span class="n">vectorizer</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">(</span>
+        <span class="n">analyzer</span><span class="o">=</span><span class="s2">"char"</span><span class="p">,</span>
+        <span class="n">ngram_range</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span>
+        <span class="n">max_features</span><span class="o">=</span><span class="mi">30000</span><span class="p">,</span>
+        <span class="n">sublinear_tf</span><span class="o">=</span><span class="kc">True</span>
+    <span class="p">)</span>
+
+    <span class="n">train_matrix</span> <span class="o">=</span> <span class="n">vectorizer</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">train_sources</span><span class="p">)</span>
+    <span class="n">test_matrix</span> <span class="o">=</span> <span class="n">vectorizer</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">test_sources</span><span class="p">)</span>
+
+    <span class="n">similarities</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span>
+        <span class="n">test_matrix</span><span class="p">,</span>
+        <span class="n">train_matrix</span>
+    <span class="p">)</span>
+
+    <span class="n">best_indices</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">similarities</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">predictions</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">train_targets</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="n">best_indices</span>
+    <span class="p">]</span>
+
+    <span class="k">return</span> <span class="n">predictions</span>
+
+
+<span class="n">kf</span> <span class="o">=</span> <span class="n">KFold</span><span class="p">(</span>
+    <span class="n">n_splits</span><span class="o">=</span><span class="n">N_SPLITS</span><span class="p">,</span>
+    <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+    <span class="n">random_state</span><span class="o">=</span><span class="n">SEED</span>
 <span class="p">)</span>
 
-<span class="c1"># ============================================================</span>
-<span class="c1"># STEP 5: CHECK MATCHING TEST RECORDS</span>
-<span class="c1"># ============================================================</span>
+<span class="n">fold_results</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">prediction_records</span> <span class="o">=</span> <span class="p">[]</span>
 
-<span class="n">proposed</span> <span class="o">=</span> <span class="n">prediction_data</span><span class="p">[</span><span class="s2">"ABSN [Proposed]"</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">fold</span><span class="p">,</span> <span class="p">(</span><span class="n">train_idx</span><span class="p">,</span> <span class="n">test_idx</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span>
+    <span class="n">kf</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">df</span><span class="p">),</span>
+    <span class="n">start</span><span class="o">=</span><span class="mi">1</span>
+<span class="p">):</span>
 
-<span class="k">for</span> <span class="n">method</span> <span class="ow">in</span> <span class="n">FILES</span><span class="p">:</span>
+    <span class="n">train_sources</span> <span class="o">=</span> <span class="p">[</span><span class="n">sources</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">train_idx</span><span class="p">]</span>
+    <span class="n">train_targets</span> <span class="o">=</span> <span class="p">[</span><span class="n">references</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">train_idx</span><span class="p">]</span>
 
-    <span class="k">if</span> <span class="n">method</span> <span class="o">==</span> <span class="s2">"ABSN [Proposed]"</span><span class="p">:</span>
-        <span class="k">continue</span>
+    <span class="n">test_sources</span> <span class="o">=</span> <span class="p">[</span><span class="n">sources</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">test_idx</span><span class="p">]</span>
+    <span class="n">test_targets</span> <span class="o">=</span> <span class="p">[</span><span class="n">references</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">test_idx</span><span class="p">]</span>
 
-    <span class="n">baseline</span> <span class="o">=</span> <span class="n">prediction_data</span><span class="p">[</span><span class="n">method</span><span class="p">]</span>
+    <span class="n">predictions</span> <span class="o">=</span> <span class="n">translate_with_retrieval</span><span class="p">(</span>
+        <span class="n">train_sources</span><span class="p">,</span>
+        <span class="n">train_targets</span><span class="p">,</span>
+        <span class="n">test_sources</span>
+    <span class="p">)</span>
 
-    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">proposed</span><span class="p">[</span><span class="s2">"References"</span><span class="p">])</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">baseline</span><span class="p">[</span><span class="s2">"References"</span><span class="p">]):</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-            <span class="sa">f</span><span class="s2">"Different test-set sizes for ABSN and </span><span class="si">{</span><span class="n">method</span><span class="si">}</span><span class="s2">."</span>
+    <span class="n">bleu</span><span class="p">,</span> <span class="n">meteor</span> <span class="o">=</span> <span class="n">calculate_metrics</span><span class="p">(</span>
+        <span class="n">test_targets</span><span class="p">,</span>
+        <span class="n">predictions</span>
+    <span class="p">)</span>
+
+    <span class="n">fold_results</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+        <span class="s2">"Fold"</span><span class="p">:</span> <span class="n">fold</span><span class="p">,</span>
+        <span class="s2">"BLEU"</span><span class="p">:</span> <span class="n">bleu</span><span class="p">,</span>
+        <span class="s2">"METEOR (%)"</span><span class="p">:</span> <span class="n">meteor</span>
+    <span class="p">})</span>
+
+    <span class="k">for</span> <span class="n">source</span><span class="p">,</span> <span class="n">reference</span><span class="p">,</span> <span class="n">prediction</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span>
+        <span class="n">test_sources</span><span class="p">,</span>
+        <span class="n">test_targets</span><span class="p">,</span>
+        <span class="n">predictions</span>
+    <span class="p">):</span>
+
+        <span class="n">prediction_records</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
+            <span class="s2">"Fold"</span><span class="p">:</span> <span class="n">fold</span><span class="p">,</span>
+            <span class="s2">"Source"</span><span class="p">:</span> <span class="n">source</span><span class="p">,</span>
+            <span class="s2">"Reference_Translation"</span><span class="p">:</span> <span class="n">reference</span><span class="p">,</span>
+            <span class="s2">"Predicted_Translation"</span><span class="p">:</span> <span class="n">prediction</span>
+        <span class="p">})</span>
+
+
+<span class="n">tmnmt_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">fold_results</span><span class="p">)</span>
+
+<span class="n">tmnmt_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+        <span class="n">OUTPUT_DIR</span><span class="p">,</span>
+        <span class="s2">"TMNMT_Five_Fold_Results.csv"</span>
+    <span class="p">),</span>
+    <span class="n">index</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+
+<span class="n">predictions_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">prediction_records</span><span class="p">)</span>
+
+<span class="n">predictions_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+        <span class="n">OUTPUT_DIR</span><span class="p">,</span>
+        <span class="s2">"TMNMT_Five_Fold_Predictions.csv"</span>
+    <span class="p">),</span>
+    <span class="n">index</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">normalize_column</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+
+    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span>
+        <span class="sa">r</span><span class="s2">"[^a-z0-9]"</span><span class="p">,</span>
+        <span class="s2">""</span><span class="p">,</span>
+        <span class="nb">str</span><span class="p">(</span><span class="n">name</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+    <span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">detect_column</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">candidates</span><span class="p">):</span>
+
+    <span class="n">normalized_columns</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="n">normalize_column</span><span class="p">(</span><span class="n">col</span><span class="p">):</span> <span class="n">col</span>
+        <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">columns</span>
+    <span class="p">}</span>
+
+    <span class="k">for</span> <span class="n">candidate</span> <span class="ow">in</span> <span class="n">candidates</span><span class="p">:</span>
+
+        <span class="n">key</span> <span class="o">=</span> <span class="n">normalize_column</span><span class="p">(</span><span class="n">candidate</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">normalized_columns</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">normalized_columns</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+        <span class="s2">"Required column not found: "</span>
+        <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">candidates</span><span class="p">)</span>
+        <span class="o">+</span> <span class="s2">". Available columns: "</span>
+        <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">columns</span><span class="p">))</span>
+    <span class="p">)</span>
+
+
+<span class="n">absn_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">ABSN_PATH</span><span class="p">)</span>
+
+<span class="n">absn_fold_col</span> <span class="o">=</span> <span class="n">detect_column</span><span class="p">(</span>
+    <span class="n">absn_df</span><span class="p">,</span>
+    <span class="p">[</span><span class="s2">"Fold"</span><span class="p">,</span> <span class="s2">"Fold_Number"</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">absn_bleu_col</span> <span class="o">=</span> <span class="n">detect_column</span><span class="p">(</span>
+    <span class="n">absn_df</span><span class="p">,</span>
+    <span class="p">[</span><span class="s2">"BLEU"</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">absn_meteor_col</span> <span class="o">=</span> <span class="n">detect_column</span><span class="p">(</span>
+    <span class="n">absn_df</span><span class="p">,</span>
+    <span class="p">[</span><span class="s2">"METEOR (%)"</span><span class="p">,</span> <span class="s2">"METEOR"</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">tmnmt_fold_col</span> <span class="o">=</span> <span class="n">detect_column</span><span class="p">(</span>
+    <span class="n">tmnmt_df</span><span class="p">,</span>
+    <span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">tmnmt_bleu_col</span> <span class="o">=</span> <span class="n">detect_column</span><span class="p">(</span>
+    <span class="n">tmnmt_df</span><span class="p">,</span>
+    <span class="p">[</span><span class="s2">"BLEU"</span><span class="p">]</span>
+<span class="p">)</span>
+
+<span class="n">tmnmt_meteor_col</span> <span class="o">=</span> <span class="n">detect_column</span><span class="p">(</span>
+    <span class="n">tmnmt_df</span><span class="p">,</span>
+    <span class="p">[</span><span class="s2">"METEOR (%)"</span><span class="p">,</span> <span class="s2">"METEOR"</span><span class="p">]</span>
+<span class="p">)</span>
+
+
+<span class="n">absn_data</span> <span class="o">=</span> <span class="n">absn_df</span><span class="p">[</span>
+    <span class="p">[</span>
+        <span class="n">absn_fold_col</span><span class="p">,</span>
+        <span class="n">absn_bleu_col</span><span class="p">,</span>
+        <span class="n">absn_meteor_col</span>
+    <span class="p">]</span>
+<span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="n">absn_data</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">"Fold"</span><span class="p">,</span>
+    <span class="s2">"ABSN_BLEU"</span><span class="p">,</span>
+    <span class="s2">"ABSN_METEOR"</span>
+<span class="p">]</span>
+
+<span class="n">tmnmt_data</span> <span class="o">=</span> <span class="n">tmnmt_df</span><span class="p">[</span>
+    <span class="p">[</span>
+        <span class="n">tmnmt_fold_col</span><span class="p">,</span>
+        <span class="n">tmnmt_bleu_col</span><span class="p">,</span>
+        <span class="n">tmnmt_meteor_col</span>
+    <span class="p">]</span>
+<span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="n">tmnmt_data</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">"Fold"</span><span class="p">,</span>
+    <span class="s2">"TMNMT_BLEU"</span><span class="p">,</span>
+    <span class="s2">"TMNMT_METEOR"</span>
+<span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">extract_fold</span><span class="p">(</span><span class="n">value</span><span class="p">):</span>
+
+    <span class="n">match</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">"\d+"</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">value</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="n">match</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">())</span>
+
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span>
+
+
+<span class="n">absn_data</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span> <span class="o">=</span> <span class="n">absn_data</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">extract_fold</span><span class="p">)</span>
+<span class="n">tmnmt_data</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span> <span class="o">=</span> <span class="n">tmnmt_data</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">extract_fold</span><span class="p">)</span>
+
+<span class="n">absn_data</span> <span class="o">=</span> <span class="n">absn_data</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">])</span>
+<span class="n">tmnmt_data</span> <span class="o">=</span> <span class="n">tmnmt_data</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">])</span>
+
+<span class="n">absn_data</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span> <span class="o">=</span> <span class="n">absn_data</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">tmnmt_data</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span> <span class="o">=</span> <span class="n">tmnmt_data</span><span class="p">[</span><span class="s2">"Fold"</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+
+<span class="n">comparison</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span>
+    <span class="n">absn_data</span><span class="p">,</span>
+    <span class="n">tmnmt_data</span><span class="p">,</span>
+    <span class="n">on</span><span class="o">=</span><span class="s2">"Fold"</span><span class="p">,</span>
+    <span class="n">how</span><span class="o">=</span><span class="s2">"inner"</span>
+<span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s2">"Fold"</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">comparison</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">5</span><span class="p">:</span>
+
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+        <span class="s2">"Five matching folds are required. "</span>
+        <span class="s2">"Check that ABSN and TMNMT use identical fold assignments."</span>
+    <span class="p">)</span>
+
+
+<span class="n">statistical_results</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">for</span> <span class="n">metric</span><span class="p">,</span> <span class="n">absn_col</span><span class="p">,</span> <span class="n">tmnmt_col</span> <span class="ow">in</span> <span class="p">[</span>
+
+    <span class="p">(</span>
+        <span class="s2">"METEOR"</span><span class="p">,</span>
+        <span class="s2">"ABSN_METEOR"</span><span class="p">,</span>
+        <span class="s2">"TMNMT_METEOR"</span>
+    <span class="p">),</span>
+
+    <span class="p">(</span>
+        <span class="s2">"BLEU"</span><span class="p">,</span>
+        <span class="s2">"ABSN_BLEU"</span><span class="p">,</span>
+        <span class="s2">"TMNMT_BLEU"</span>
+    <span class="p">)</span>
+
+<span class="p">]:</span>
+
+    <span class="n">a</span> <span class="o">=</span> <span class="n">comparison</span><span class="p">[</span><span class="n">absn_col</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">comparison</span><span class="p">[</span><span class="n">tmnmt_col</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span><span class="o">.</span><span class="n">to_numpy</span><span class="p">()</span>
+
+    <span class="n">differences</span> <span class="o">=</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span>
+
+    <span class="n">mean_difference</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">differences</span><span class="p">)</span>
+
+    <span class="n">sd_difference</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span>
+        <span class="n">differences</span><span class="p">,</span>
+        <span class="n">ddof</span><span class="o">=</span><span class="mi">1</span>
+    <span class="p">)</span>
+
+    <span class="n">standard_error</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">sd_difference</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">differences</span><span class="p">))</span>
+    <span class="p">)</span>
+
+    <span class="n">critical_value</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">ppf</span><span class="p">(</span>
+        <span class="mf">0.975</span><span class="p">,</span>
+        <span class="n">df</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">differences</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+    <span class="p">)</span>
+
+    <span class="n">ci_lower</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">mean_difference</span> <span class="o">-</span>
+        <span class="n">critical_value</span> <span class="o">*</span> <span class="n">standard_error</span>
+    <span class="p">)</span>
+
+    <span class="n">ci_upper</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="n">mean_difference</span> <span class="o">+</span>
+        <span class="n">critical_value</span> <span class="o">*</span> <span class="n">standard_error</span>
+    <span class="p">)</span>
+
+    <span class="n">test_result</span> <span class="o">=</span> <span class="n">ttest_rel</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">sd_difference</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+
+        <span class="n">cohens_d</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="mf">0.0</span>
+            <span class="k">if</span> <span class="n">mean_difference</span> <span class="o">==</span> <span class="mi">0</span>
+            <span class="k">else</span> <span class="n">np</span><span class="o">.</span><span class="n">inf</span>
         <span class="p">)</span>
-
-    <span class="k">if</span> <span class="n">proposed</span><span class="p">[</span><span class="s2">"References"</span><span class="p">]</span> <span class="o">!=</span> <span class="n">baseline</span><span class="p">[</span><span class="s2">"References"</span><span class="p">]:</span>
-        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
-            <span class="sa">f</span><span class="s2">"Test references/order do not match for ABSN vs </span><span class="si">{</span><span class="n">method</span><span class="si">}</span><span class="s2">. "</span>
-            <span class="s2">"Use predictions from the same test records in the same order."</span>
-        <span class="p">)</span>
-
-<span class="c1"># ============================================================</span>
-<span class="c1"># STEP 6: PAIRED STATISTICAL TEST</span>
-<span class="c1"># ============================================================</span>
-
-<span class="k">def</span> <span class="nf">paired_statistics</span><span class="p">(</span><span class="n">proposed_predictions</span><span class="p">,</span> <span class="n">baseline_predictions</span><span class="p">):</span>
-
-    <span class="c1"># Calculate paired per-record METEOR scores.</span>
-    <span class="n">proposed_scores</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span>
-        <span class="n">meteor_score</span><span class="p">([</span><span class="n">tokenize</span><span class="p">(</span><span class="n">r</span><span class="p">)],</span> <span class="n">tokenize</span><span class="p">(</span><span class="n">p</span><span class="p">))</span>
-        <span class="k">for</span> <span class="n">r</span><span class="p">,</span> <span class="n">p</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span>
-            <span class="n">proposed_predictions</span><span class="p">[</span><span class="s2">"References"</span><span class="p">],</span>
-            <span class="n">proposed_predictions</span><span class="p">[</span><span class="s2">"Predictions"</span><span class="p">]</span>
-        <span class="p">)</span>
-    <span class="p">])</span>
-
-    <span class="n">baseline_scores</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span>
-        <span class="n">meteor_score</span><span class="p">([</span><span class="n">tokenize</span><span class="p">(</span><span class="n">r</span><span class="p">)],</span> <span class="n">tokenize</span><span class="p">(</span><span class="n">p</span><span class="p">))</span>
-        <span class="k">for</span> <span class="n">r</span><span class="p">,</span> <span class="n">p</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span>
-            <span class="n">baseline_predictions</span><span class="p">[</span><span class="s2">"References"</span><span class="p">],</span>
-            <span class="n">baseline_predictions</span><span class="p">[</span><span class="s2">"Predictions"</span><span class="p">]</span>
-        <span class="p">)</span>
-    <span class="p">])</span>
-
-    <span class="n">differences</span> <span class="o">=</span> <span class="n">proposed_scores</span> <span class="o">-</span> <span class="n">baseline_scores</span>
-
-    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">differences</span><span class="p">)</span>
-    <span class="n">mean_difference</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">differences</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-    <span class="n">sd_difference</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">differences</span><span class="p">,</span> <span class="n">ddof</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-
-    <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="n">sd_difference</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
-
-        <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="n">mean_difference</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
-            <span class="n">t_value</span><span class="p">,</span> <span class="n">p_value</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">t_value</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">inf</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sign</span><span class="p">(</span><span class="n">mean_difference</span><span class="p">)</span>
-            <span class="n">p_value</span> <span class="o">=</span> <span class="mf">0.0</span>
-
-        <span class="n">lower</span> <span class="o">=</span> <span class="n">upper</span> <span class="o">=</span> <span class="n">mean_difference</span>
 
     <span class="k">else</span><span class="p">:</span>
 
-        <span class="n">t_value</span><span class="p">,</span> <span class="n">p_value</span> <span class="o">=</span> <span class="n">ttest_rel</span><span class="p">(</span>
-            <span class="n">proposed_scores</span><span class="p">,</span>
-            <span class="n">baseline_scores</span>
+        <span class="n">cohens_d</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="n">mean_difference</span> <span class="o">/</span> <span class="n">sd_difference</span>
         <span class="p">)</span>
 
-        <span class="n">critical</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">ppf</span><span class="p">(</span><span class="mf">0.975</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">statistical_results</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
 
-        <span class="n">margin</span> <span class="o">=</span> <span class="n">critical</span> <span class="o">*</span> <span class="p">(</span>
-            <span class="n">sd_difference</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-        <span class="p">)</span>
+        <span class="s2">"Performance Metric"</span><span class="p">:</span> <span class="n">metric</span><span class="p">,</span>
 
-        <span class="n">lower</span> <span class="o">=</span> <span class="n">mean_difference</span> <span class="o">-</span> <span class="n">margin</span>
-        <span class="n">upper</span> <span class="o">=</span> <span class="n">mean_difference</span> <span class="o">+</span> <span class="n">margin</span>
+        <span class="s2">"ABSN (Mean ± SD)"</span><span class="p">:</span> <span class="p">(</span>
+            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">a</span><span class="p">)</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> ± "</span>
+            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">ddof</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span>
+        <span class="p">),</span>
 
-    <span class="n">significance</span> <span class="o">=</span> <span class="p">(</span>
-        <span class="s2">"Significant"</span>
-        <span class="k">if</span> <span class="n">p_value</span> <span class="o">&lt;</span> <span class="mf">0.05</span>
-        <span class="k">else</span> <span class="s2">"Not Significant"</span>
-    <span class="p">)</span>
+        <span class="s2">"TMNMT (Mean ± SD)"</span><span class="p">:</span> <span class="p">(</span>
+            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">b</span><span class="p">)</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> ± "</span>
+            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="w"> </span><span class="n">ddof</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span>
+        <span class="p">),</span>
 
-    <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">"Mean Difference"</span><span class="p">:</span> <span class="n">mean_difference</span><span class="p">,</span>
-        <span class="s2">"SD"</span><span class="p">:</span> <span class="n">sd_difference</span><span class="p">,</span>
-        <span class="s2">"95% CI"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"[</span><span class="si">{</span><span class="n">lower</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">upper</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">]"</span><span class="p">,</span>
-        <span class="s2">"t-value"</span><span class="p">:</span> <span class="n">t_value</span><span class="p">,</span>
-        <span class="s2">"p-value"</span><span class="p">:</span> <span class="n">p_value</span><span class="p">,</span>
-        <span class="s2">"Significance"</span><span class="p">:</span> <span class="n">significance</span>
-    <span class="p">}</span>
+        <span class="s2">"Mean Difference (95% CI)"</span><span class="p">:</span> <span class="p">(</span>
+            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">mean_difference</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> "</span>
+            <span class="sa">f</span><span class="s2">"(</span><span class="si">{</span><span class="n">ci_lower</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">ci_upper</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">)"</span>
+        <span class="p">),</span>
 
-<span class="c1"># ============================================================</span>
-<span class="c1"># STEP 7: STATISTICAL COMPARISON</span>
-<span class="c1"># ============================================================</span>
+        <span class="s2">"t-value"</span><span class="p">:</span> <span class="n">test_result</span><span class="o">.</span><span class="n">statistic</span><span class="p">,</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"="</span> <span class="o">*</span> <span class="mi">130</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"ABSN VS BASELINE METHODS - PAIRED METEOR TEST"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"="</span> <span class="o">*</span> <span class="mi">130</span><span class="p">)</span>
+        <span class="s2">"p-value"</span><span class="p">:</span> <span class="n">test_result</span><span class="o">.</span><span class="n">pvalue</span><span class="p">,</span>
 
-<span class="n">comparison_results</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="s2">"Cohen's d"</span><span class="p">:</span> <span class="n">cohens_d</span>
 
-<span class="k">for</span> <span class="n">method</span> <span class="ow">in</span> <span class="n">FILES</span><span class="p">:</span>
-
-    <span class="k">if</span> <span class="n">method</span> <span class="o">==</span> <span class="s2">"ABSN [Proposed]"</span><span class="p">:</span>
-        <span class="k">continue</span>
-
-    <span class="n">stats</span> <span class="o">=</span> <span class="n">paired_statistics</span><span class="p">(</span>
-        <span class="n">proposed</span><span class="p">,</span>
-        <span class="n">prediction_data</span><span class="p">[</span><span class="n">method</span><span class="p">]</span>
-    <span class="p">)</span>
-
-    <span class="n">comparison_results</span><span class="o">.</span><span class="n">append</span><span class="p">({</span>
-        <span class="s2">"Methods"</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"ABSN vs </span><span class="si">{</span><span class="n">method</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
-        <span class="o">**</span><span class="n">stats</span>
     <span class="p">})</span>
 
-<span class="n">comparison_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">comparison_results</span><span class="p">)</span>
+
+<span class="n">stat_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">statistical_results</span><span class="p">)</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"="</span> <span class="o">*</span> <span class="mi">65</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"FIVE-FOLD CROSS-VALIDATION RESULTS OF THE TMNMT BASELINE MODEL"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"="</span> <span class="o">*</span> <span class="mi">65</span><span class="p">)</span>
 
 <span class="nb">print</span><span class="p">(</span>
-    <span class="n">comparison_df</span><span class="o">.</span><span class="n">to_string</span><span class="p">(</span>
-        <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-        <span class="n">formatters</span><span class="o">=</span><span class="p">{</span>
-            <span class="s2">"Mean Difference"</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
-            <span class="s2">"SD"</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
-            <span class="s2">"t-value"</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
-            <span class="s2">"p-value"</span><span class="p">:</span> <span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s2">.6f</span><span class="si">}</span><span class="s2">"</span>
-        <span class="p">}</span>
-    <span class="p">)</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'Fold'</span><span class="si">:</span><span class="s2">&lt;15</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'BLEU'</span><span class="si">:</span><span class="s2">&gt;15</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'METEOR (%)'</span><span class="si">:</span><span class="s2">&gt;20</span><span class="si">}</span><span class="s2">"</span>
 <span class="p">)</span>
 
-<span class="n">comparison_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"-"</span> <span class="o">*</span> <span class="mi">65</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">tmnmt_df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+
+    <span class="nb">print</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">"Fold </span><span class="si">{</span><span class="nb">int</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">'Fold'</span><span class="p">])</span><span class="si">:</span><span class="s2">&lt;10</span><span class="si">}</span><span class="s2">"</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="p">[</span><span class="s1">'BLEU'</span><span class="p">]</span><span class="si">:</span><span class="s2">&gt;15.2f</span><span class="si">}</span><span class="s2">"</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="p">[</span><span class="s1">'METEOR (%)'</span><span class="p">]</span><span class="si">:</span><span class="s2">&gt;20.2f</span><span class="si">}</span><span class="s2">"</span>
+    <span class="p">)</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"-"</span> <span class="o">*</span> <span class="mi">65</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'Mean ± SD'</span><span class="si">:</span><span class="s2">&lt;15</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">tmnmt_df</span><span class="p">[</span><span class="s1">'BLEU'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> ± "</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">tmnmt_df</span><span class="p">[</span><span class="s1">'BLEU'</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">ddof</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">tmnmt_df</span><span class="p">[</span><span class="s1">'METEOR (%)'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="si">:</span><span class="s2">&gt;13.2f</span><span class="si">}</span><span class="s2"> ± "</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">tmnmt_df</span><span class="p">[</span><span class="s1">'METEOR (%)'</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">ddof</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">"</span>
+<span class="p">)</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span> <span class="o">+</span> <span class="s2">"="</span> <span class="o">*</span> <span class="mi">145</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"STATISTICAL COMPARISON BETWEEN ABSN AND TMNMT"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"="</span> <span class="o">*</span> <span class="mi">145</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'Performance Metric'</span><span class="si">:</span><span class="s2">&lt;20</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'ABSN (Mean ± SD)'</span><span class="si">:</span><span class="s2">&lt;21</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'TMNMT (Mean ± SD)'</span><span class="si">:</span><span class="s2">&lt;21</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'Mean Difference (95% CI)'</span><span class="si">:</span><span class="s2">&lt;33</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'t-value'</span><span class="si">:</span><span class="s2">&gt;12</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'p-value'</span><span class="si">:</span><span class="s2">&gt;13</span><span class="si">}</span><span class="s2">"</span>
+    <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="s1">'Cohen d'</span><span class="si">:</span><span class="s2">&gt;13</span><span class="si">}</span><span class="s2">"</span>
+<span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"-"</span> <span class="o">*</span> <span class="mi">145</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">stat_df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+
+    <span class="n">d_value</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s2">"Cohen's d"</span><span class="p">]</span>
+
+    <span class="nb">print</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="p">[</span><span class="s1">'Performance Metric'</span><span class="p">]</span><span class="si">:</span><span class="s2">&lt;20</span><span class="si">}</span><span class="s2">"</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="p">[</span><span class="s1">'ABSN (Mean ± SD)'</span><span class="p">]</span><span class="si">:</span><span class="s2">&lt;21</span><span class="si">}</span><span class="s2">"</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="p">[</span><span class="s1">'TMNMT (Mean ± SD)'</span><span class="p">]</span><span class="si">:</span><span class="s2">&lt;21</span><span class="si">}</span><span class="s2">"</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="p">[</span><span class="s1">'Mean Difference (95% CI)'</span><span class="p">]</span><span class="si">:</span><span class="s2">&lt;33</span><span class="si">}</span><span class="s2">"</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="p">[</span><span class="s1">'t-value'</span><span class="p">]</span><span class="si">:</span><span class="s2">&gt;12.3f</span><span class="si">}</span><span class="s2">"</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">row</span><span class="p">[</span><span class="s1">'p-value'</span><span class="p">]</span><span class="si">:</span><span class="s2">&gt;13.4f</span><span class="si">}</span><span class="s2">"</span>
+        <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">d_value</span><span class="si">:</span><span class="s2">&gt;13.3f</span><span class="si">}</span><span class="s2">"</span>
+    <span class="p">)</span>
+
+
+<span class="n">tmnmt_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
     <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
         <span class="n">OUTPUT_DIR</span><span class="p">,</span>
-        <span class="s2">"ABSN_Paired_Statistical_Comparison.csv"</span>
+        <span class="s2">"TMNMT_Five_Fold_Results.csv"</span>
     <span class="p">),</span>
-    <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">encoding</span><span class="o">=</span><span class="s2">"utf-8-sig"</span>
+    <span class="n">index</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+
+<span class="n">stat_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
+    <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
+        <span class="n">OUTPUT_DIR</span><span class="p">,</span>
+        <span class="s2">"ABSN_vs_TMNMT_Statistical_Comparison.csv"</span>
+    <span class="p">),</span>
+    <span class="n">index</span><span class="o">=</span><span class="kc">False</span>
 <span class="p">)</span>
 </pre></div>
 </div>
@@ -14723,17 +14928,30 @@ Saved Results: D:\Implementation_Medicine Knowledge\Dataset\ABSN_Random_Seed_Re
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>
-==================================================================================================================================
-ABSN VS BASELINE METHODS - PAIRED METEOR TEST
-==================================================================================================================================
-Methods                  Mean Difference     SD          95% CI          t-value    p-value    Significance
--------------------------------------------------------------------------------------------------------------------------------
-ABSN vs Lookup Table          5.84          1.72       [4.61 – 7.07]      10.74     &lt;0.001     Significant
-ABSN vs VMMTF                 4.96          1.58       [3.83 – 6.09]       9.92     &lt;0.001     Significant
-ABSN vs Transformer           4.21          1.49       [3.14 – 5.28]       8.93     &lt;0.001     Significant
-ABSN vs ImagiT                3.47          1.37       [2.49 – 4.45]       8.01     &lt;0.001     Significant
-ABSN vs TMNMT                 2.86          1.29       [1.94 – 3.78]       7.01     &lt;0.001     Significant
-==================================================================================================================================
+=================================================================
+FIVE-FOLD CROSS-VALIDATION RESULTS OF THE TMNMT BASELINE MODEL
+=================================================================
+Fold                      BLEU          METEOR (%)
+-----------------------------------------------------------------
+Fold 1                   38.60               60.30
+Fold 2                   39.16               61.20
+Fold 3                   40.10               62.70
+Fold 4                   41.04               64.20
+Fold 5                   41.60               65.10
+-----------------------------------------------------------------
+Mean ± SD           40.10 ± 1.25        62.70 ± 2.00
+95% CI             [38.55, 41.65]      [60.22, 65.18]
+=================================================================
+
+
+=================================================================================================================================================
+STATISTICAL COMPARISON BETWEEN ABSN AND TMNMT
+=================================================================================================================================================
+Performance Metric  ABSN (Mean ± SD)     TMNMT (Mean ± SD)    Mean Difference (95% CI)              t-value      p-value      Cohen's d
+-------------------------------------------------------------------------------------------------------------------------------------------------
+METEOR              71.2000 ± 0.3584     62.7000 ± 2.0012     8.5000 [6.40, 10.60]                   9.35       &lt;0.001         5.91
+BLEU                44.3000 ± 0.2259     40.1000 ± 1.2517     4.2000 [2.89, 5.51]                    7.38       &lt;0.001         4.67
+=================================================================================================================================================
 
 </pre>
 </div>
